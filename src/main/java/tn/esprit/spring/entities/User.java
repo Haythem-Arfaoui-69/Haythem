@@ -28,6 +28,8 @@ public class User implements Serializable {
 	private String firstName; 
 	
 	private String lastName;
+
+	private long num;
 	
 	@Temporal(TemporalType.DATE)
 	private Date dateNaissance;
